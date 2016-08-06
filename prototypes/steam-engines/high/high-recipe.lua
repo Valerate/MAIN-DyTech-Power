@@ -4,6 +4,7 @@ if data.raw.item["metallurgy-active"] then
 	  {
 		type = "recipe",
 		name = "high-steam-engine",
+		enabled = false,
 		ingredients =
 		{
 		  {"steam-engine", 1},

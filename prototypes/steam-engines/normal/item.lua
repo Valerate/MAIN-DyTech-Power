@@ -1,6 +1,3 @@
-data.raw["item"]["steam-engine"].subgroup = "dytech-energy-steam-secondary"
-data.raw["item"]["steam-engine"].order = "[mk1]"
-
 data:extend(
 {
   {
