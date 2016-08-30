@@ -1,8 +1,8 @@
 {
 	"name":"MAIN-DyTech-Power",
 	"author":"MagicLegend, Dysoch",
-	"factorio_version": "0.13",
-	"version":"3.0.0",
+	"factorio_version": "0.14",
+	"version":"3.0.2",
 	"title":"MAIN-DyTech-Power",
 	"homepage":"http://www.factorioforums.com/forum/viewforum.php?f=43",
 	"description":"This Main Module of DyTech holds all Power related machines. Solar Panels, Boilers, Steam Engines and even Nuclear Reactors!",
