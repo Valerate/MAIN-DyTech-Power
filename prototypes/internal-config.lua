@@ -61,57 +61,57 @@ Accumulators = {
 		}
 	},
 	Input = {
-		Small = {
-			Tier1 = "450kW", --472.5
-			Tier2 = "450kW",
-			Tier3 = "1350kW",
-			Tier4 = "800kW", --787.5
-			Tier5 = "2100kW",
-			Tier6 = "600kW"
-		},
-		Normal = {
-			Tier1 = "2100kW",
-			Tier2 = "2100kW",
-			Tier3 = "6000kW",
-			Tier4 = "4500kW",
-			Tier5 = "12000kW",
-			Tier6 = "4500kW"
-		},
-		Large = {
-			Tier1 = "6000kW", --5197.5
-			Tier2 = "6000kW",
-			Tier3 = "17000kW",
-			Tier4 = "17000kW",
-			Tier5 = "40000kW",
-			Tier6 = "20000kW"
-		}
-	},
-	Output = {
-		Small = {
-			Tier1 = "1350kW",
-			Tier2 = "1350kW",
-			Tier3 = "450kW",
-			Tier4 = "2100kW",
-			Tier5 = "800kW",
-			Tier6 = "600kW"
-		},
-		Normal = {
-			Tier1 = "6000kW",
-			Tier2 = "6000kW",
-			Tier3 = "2100kW",
-			Tier4 = "12000kW",
-			Tier5 = "4500kW",
-			Tier6 = "4500kW"
-		},
-		Large = {
-			Tier1 = "17000kW",
-			Tier2 = "17000kW",
-			Tier3 = "6000kW",
-			Tier4 = "40000kW",
-			Tier5 = "15000kW",
-			Tier6 = "20000kW"
-		}
-	},
+      Small = {
+         Tier1 = "450kW", --472.5
+         Tier2 = "450kW",
+         Tier3 = "1350kW",
+         Tier4 = "800kW", --787.5
+         Tier5 = "2100kW",
+         Tier6 = "2500kW"
+      },
+      Normal = {
+         Tier1 = "2100kW",
+         Tier2 = "2100kW",
+         Tier3 = "6000kW",
+         Tier4 = "4500kW",
+         Tier5 = "12000kW",
+         Tier6 = "15000kW"
+      },
+      Large = {
+         Tier1 = "6000kW", --5197.5
+         Tier2 = "6000kW",
+         Tier3 = "17000kW",
+         Tier4 = "17000kW",
+         Tier5 = "40000kW",
+         Tier6 = "60000kW"
+      }
+   },
+   Output = {
+      Small = {
+         Tier1 = "1350kW",
+         Tier2 = "1350kW",
+         Tier3 = "450kW",
+         Tier4 = "2100kW",
+         Tier5 = "800kW",
+         Tier6 = "2500kW"
+      },
+      Normal = {
+         Tier1 = "6000kW",
+         Tier2 = "6000kW",
+         Tier3 = "2100kW",
+         Tier4 = "12000kW",
+         Tier5 = "4500kW",
+         Tier6 = "15000kW"
+      },
+      Large = {
+         Tier1 = "17000kW",
+         Tier2 = "17000kW",
+         Tier3 = "6000kW",
+         Tier4 = "40000kW",
+         Tier5 = "15000kW",
+         Tier6 = "60000kW"
+      }
+   },
 }	
 
 SolarPanels = {
@@ -139,108 +139,108 @@ SolarPanels = {
 }
 
 SteamEngines = {
-	Small = {
-		effectivity1 = 1,
-		effectivity2 = 2,
-		effectivity3 = 3,
-		effectivity4 = 4,
-		effectivity5 = 5,
-		fluid_usage_per_tick1 = 1,
-		fluid_usage_per_tick2 = 1,
-		fluid_usage_per_tick3 = 1,
-		fluid_usage_per_tick4 = 1,
-		fluid_usage_per_tick5 = 1
-	},
-	Normal = {
-		effectivity1 = 1.43,
-		effectivity2 = 2.04,
-		effectivity3 = 2.92,
-		effectivity4 = 4.18,
-		effectivity5 = 5.98,
-		fluid_usage_per_tick1 = 0.08,
-		fluid_usage_per_tick2 = 0.124,
-		fluid_usage_per_tick3 = 0.193,
-		fluid_usage_per_tick4 = 0.3,
-		fluid_usage_per_tick5 = 0.465
-	},
-	Large = {
-		effectivity1 = 1,
-		effectivity2 = 1,
-		effectivity3 = 1,
-		effectivity4 = 1,
-		effectivity5 = 1,
-		fluid_usage_per_tick1 = 1,
-		fluid_usage_per_tick2 = 1,
-		fluid_usage_per_tick3 = 1,
-		fluid_usage_per_tick4 = 1,
-		fluid_usage_per_tick5 = 1
-	},
-	High = {
-		effectivity1 = 2.002,
-		effectivity2 = 2.652,
-		effectivity3 = 3.504,
-		effectivity4 = 4.598,
-		effectivity5 = 5.98,
-		fluid_usage_per_tick1 = 0.08,
-		fluid_usage_per_tick2 = 0.124,
-		fluid_usage_per_tick3 = 0.193,
-		fluid_usage_per_tick4 = 0.3,
-		fluid_usage_per_tick5 = 0.465
-	}
+   Small = {
+      effectivity1 = 1,
+      effectivity2 = 2,
+      effectivity3 = 3,
+      effectivity4 = 4,
+      effectivity5 = 5,
+      fluid_usage_per_tick1 = 1,
+      fluid_usage_per_tick2 = 1,
+      fluid_usage_per_tick3 = 1,
+      fluid_usage_per_tick4 = 1,
+      fluid_usage_per_tick5 = 1
+   },
+   Normal = {
+      effectivity1 = 1.43,
+      effectivity2 = 2.145,
+      effectivity3 = 3.2175,
+      effectivity4 = 4.82625,
+      effectivity5 = 7.239375,
+      fluid_usage_per_tick1 = 0.08,
+      fluid_usage_per_tick2 = 0.124,
+      fluid_usage_per_tick3 = 0.193,
+      fluid_usage_per_tick4 = 0.3,
+      fluid_usage_per_tick5 = 0.465
+   },
+   Large = {
+      effectivity1 = 1,
+      effectivity2 = 1,
+      effectivity3 = 1,
+      effectivity4 = 1,
+      effectivity5 = 1,
+      fluid_usage_per_tick1 = 1,
+      fluid_usage_per_tick2 = 1,
+      fluid_usage_per_tick3 = 1,
+      fluid_usage_per_tick4 = 1,
+      fluid_usage_per_tick5 = 1
+   },
+   High = {
+      effectivity1 = 2.002,
+      effectivity2 = 3.003,
+      effectivity3 = 4.5045,
+      effectivity4 = 6.75675,
+      effectivity5 = 10.135125,
+      fluid_usage_per_tick1 = 0.08,
+      fluid_usage_per_tick2 = 0.124,
+      fluid_usage_per_tick3 = 0.193,
+      fluid_usage_per_tick4 = 0.3,
+      fluid_usage_per_tick5 = 0.465
+   }
 }
 
 Boilers = {
-	Small = {
-		KW1 = "668kW",
-		KW2 = "1594kW",
-		KW3 = "3842kW",
-		KW4 = "9316kW",
-		KW5 = "22713kW",
-		HighKW1 = "1669kW",
-		HighKW2 = "3984kW",
-		HighKW3 = "9604kW",
-		HighKW4 = "23289kW",
-		HighKW5 = "56781kW",
-		effectivity1 = 1,
-		effectivity2 = 2,
-		effectivity3 = 4,
-		effectivity4 = 8,
-		effectivity5 = 16
-	},
-	Normal = {
-		KW1 = "668kW",
-		KW2 = "1594kW",
-		KW3 = "3842kW",
-		KW4 = "9316kW",
-		KW5 = "22713kW",
-		HighKW1 = "1669kW",
-		HighKW2 = "3984kW",
-		HighKW3 = "9604kW",
-		HighKW4 = "23289kW",
-		HighKW5 = "56781kW",
-		effectivity1 = 1,
-		effectivity2 = 2,
-		effectivity3 = 4,
-		effectivity4 = 8,
-		effectivity5 = 16
-	},
-	Large = {
-		KW1 = "668kW",
-		KW2 = "1594kW",
-		KW3 = "3842kW",
-		KW4 = "9316kW",
-		KW5 = "22713kW",
-		HighKW1 = "1669kW",
-		HighKW2 = "3984kW",
-		HighKW3 = "9604kW",
-		HighKW4 = "23289kW",
-		HighKW5 = "56781kW",
-		effectivity1 = 1,
-		effectivity2 = 2,
-		effectivity3 = 4,
-		effectivity4 = 8,
-		effectivity5 = 16
-	},
+   Small = {
+      KW1 = "668kW",
+      KW2 = "1594kW",
+      KW3 = "3842kW",
+      KW4 = "9316kW",
+      KW5 = "22713kW",
+      HighKW1 = "1669kW",
+      HighKW2 = "3984kW",
+      HighKW3 = "9604kW",
+      HighKW4 = "23289kW",
+      HighKW5 = "56781kW",
+      effectivity1 = 1,
+      effectivity2 = 2,
+      effectivity3 = 4,
+      effectivity4 = 8,
+      effectivity5 = 16
+   },
+   Normal = {
+      KW1 = "668kW",
+      KW2 = "1594kW",
+      KW3 = "3842kW",
+      KW4 = "9316kW",
+      KW5 = "22713kW",
+      HighKW1 = "1669kW",
+      HighKW2 = "3984kW",
+      HighKW3 = "9604kW",
+      HighKW4 = "23289kW",
+      HighKW5 = "56781kW",
+      effectivity1 = 1,
+      effectivity2 = 2,
+      effectivity3 = 4,
+      effectivity4 = 8,
+      effectivity5 = 16
+   },
+   Large = {
+      KW1 = "668kW",
+      KW2 = "1594kW",
+      KW3 = "3842kW",
+      KW4 = "9316kW",
+      KW5 = "22713kW",
+      HighKW1 = "1669kW",
+      HighKW2 = "3984kW",
+      HighKW3 = "9604kW",
+      HighKW4 = "23289kW",
+      HighKW5 = "56781kW",
+      effectivity1 = 1.5,
+      effectivity2 = 3,
+      effectivity3 = 6,
+      effectivity4 = 12,
+      effectivity5 = 24
+   },
 }
 
 Health = {

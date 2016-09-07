@@ -27,7 +27,7 @@ data:extend({
     energy_consumption = Boilers.Normal.HighKW1,
     burner =
     {
-      effectivity = Boilers.Normal.effectivity2,
+      effectivity = Boilers.Large.effectivity1,
       fuel_inventory_size = 2,
       emissions = 0.1 / 6.5,
       smoke =
@@ -139,7 +139,7 @@ data:extend({
     energy_consumption = Boilers.Normal.HighKW2,
     burner =
     {
-      effectivity = Boilers.Normal.effectivity2,
+      effectivity = Boilers.Large.effectivity2,
       fuel_inventory_size = 2,
       emissions = 0.1 / 6.5,
       smoke =
@@ -251,7 +251,7 @@ data:extend({
     energy_consumption = Boilers.Normal.HighKW3,
     burner =
     {
-      effectivity = Boilers.Normal.effectivity3,
+      effectivity = Boilers.Large.effectivity3,
       fuel_inventory_size = 3,
       emissions = 0.1 / 6.5,
       smoke =
@@ -363,7 +363,7 @@ data:extend({
     energy_consumption = Boilers.Normal.HighKW4,
     burner =
     {
-      effectivity = Boilers.Normal.effectivity4,
+      effectivity = Boilers.Large.effectivity4,
       fuel_inventory_size = 4,
       emissions = 0.1 / 6.5,
       smoke =
@@ -475,7 +475,7 @@ data:extend({
     energy_consumption = Boilers.Normal.HighKW5,
     burner =
     {
-      effectivity = Boilers.Normal.effectivity5,
+      effectivity = Boilers.Large.effectivity5,
       fuel_inventory_size = 5,
       emissions = 0.1 / 6.5,
       smoke =
